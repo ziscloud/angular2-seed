@@ -1,25 +1,12 @@
 {
   "name": "angular2-seed",
-  "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
-  "scripts": {
-    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080 --content-base src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/angular/angular2-seed.git"
-  },
-  "keywords": [
-    "Angular2",
-    "angular2-seed"
-  ],
-  "author": "Rob Wormald <robwormald@gmail.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/angular/angular2-seed/issues"
-  },
-  "homepage": "https://github.com/angular/angular2-seed#readme",
+  "version": "2.0.1",
+  "description": "Development setup for angualr 2 in typescript",
   "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
     "ts-loader": "^0.7.2",
     "typescript": "^1.7.3",
     "webpack": "^1.12.9",

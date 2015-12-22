@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   entry: {
@@ -6,7 +7,7 @@ module.exports = {
     'vendor': './src/vendor.ts'
   },
   output: {
-    path: "./dist",
+    path: path.join(__dirname, 'dist'),
     filename: "bundle.js"
   },
   plugins: [
